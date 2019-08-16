@@ -2,8 +2,10 @@ header {
   background-image: url("https://img.freepik.com/free-photo/blue-bright-water-surface-ripple-wave-with-sun-reflection-swimming-pool_3236-123.jpg?size=626&ext=jpg");
 }
 
-h1 {
+h1 a {
   margin-left: 50px;
+  color: #2424d4;
+  text-decoration: none;
 }
 
 main {
@@ -33,6 +35,8 @@ body{
 
 .finstagram-post .photo img {
   border-radius: 7%;
+/*   width: 65%;
+  margin: auto; */
 }
 .finstagram-post .photo:hover img {
   transition: border-radius 0.7s;

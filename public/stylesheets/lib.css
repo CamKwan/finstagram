@@ -8,11 +8,6 @@ body, input {
   color: #244751;
 }
 
-a {
-  color: #8da7b8;
-  text-decoration: none;
-}
-
 label {
   display: block;
   margin-bottom: .25em;
@@ -58,6 +53,12 @@ main {
   background-color: white;
   border: solid 1px #244751;
   display: inline-block;
+  transition-duration: 0.2s;
+}
+
+.button:hover {
+  background-color: lightblue;
+  color: white;
 }
 
 .finstagram-post > * {

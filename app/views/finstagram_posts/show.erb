@@ -1,0 +1,8 @@
+<%= erb(:'shared/finstagram_post', { locals: { finstagram_post: @finstagram_post, allow_new_comment: true }}) %>
+
+<% if @finstagram_post.user.id == session[:user_id] %>
+<form method = "POST" action = "/delete">
+  <button class = "button" type = "submit" value = "<%= @finstagram_post.id %>" name = "post_id">Delete Post</button>
+</form>
+
+<% end %>
